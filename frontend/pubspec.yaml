@@ -1,0 +1,42 @@
+name: voice_recognition_app
+description: AI-powered voice recognition and speaker identification app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP client for API communication
+  http: ^1.1.0
+  
+  # Audio recording - Updated to latest compatible version
+  record: ^5.1.0
+
+  
+  # File system access
+  path_provider: ^2.1.1
+  
+  # Permissions handling
+  permission_handler: ^11.0.1
+  
+  # UI enhancements
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting rules
+  flutter_lints: ^3.0.0
+
+# Force compatible versions
+dependency_overrides:
+  record_linux: ^1.0.0
+  record_platform_interface: ^1.4.0
+
+flutter:
+  uses-material-design: true
