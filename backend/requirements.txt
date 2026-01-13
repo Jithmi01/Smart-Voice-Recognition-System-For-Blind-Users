@@ -1,0 +1,47 @@
+# Flask Web Framework
+flask==3.0.0
+flask-cors==4.0.0
+werkzeug==3.0.1
+
+# MongoDB Database
+pymongo==4.6.1
+dnspython==2.4.2
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Audio Processing
+librosa==0.10.1
+soundfile==0.12.1
+noisereduce==3.0.0
+
+# Scientific Computing
+numpy==1.24.3
+scipy==1.11.4
+
+# Machine Learning - SpeechBrain & Dependencies
+speechbrain==0.5.16
+torch==2.1.0
+torchaudio==2.1.0
+torchaudio==2.1.0
+
+# SpeechBrain Additional Dependencies
+sentencepiece==0.1.99
+huggingface-hub==0.19.4
+hyperpyyaml==1.2.2
+joblib==1.3.2
+packaging==23.2
+tqdm==4.66.1
+
+# Audio Processing Dependencies (for librosa)
+audioread==3.0.1
+soxr==0.3.7
+pooch==1.8.0
+lazy-loader==0.3
+msgpack==1.0.7
+
+# File Handling
+pathlib2==2.3.7.post1
+
+pyyaml==6.0
+ruamel.yaml==0.17.21
